@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+}
+
+body { 
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 1.2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100vh;
+}
+
+main div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-row-container{
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.weather-container {
+    display: flex;
+    gap: 16px;
+}
+
+#weather-main {
+    display: flex;
+    gap: 0;
+    align-items: center;
+    font-size: 1rem;
+}
+
+#weather-main img {
+    width: 64px;
+    height: auto;
+}
+
+#weather-temps {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    line-height: 0%;
+    font-weight: 400;
+}
